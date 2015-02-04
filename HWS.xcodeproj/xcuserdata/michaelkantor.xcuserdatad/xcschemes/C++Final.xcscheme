@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E7F083351A48C989004E510E"
-               BuildableName = "C++Final"
-               BlueprintName = "C++Final"
-               ReferencedContainer = "container:C++Final.xcodeproj">
+               BuildableName = "HWs"
+               BlueprintName = "HWs"
+               ReferencedContainer = "container:HWS.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E7F083351A48C989004E510E"
-            BuildableName = "C++Final"
-            BlueprintName = "C++Final"
-            ReferencedContainer = "container:C++Final.xcodeproj">
+            BuildableName = "HWs"
+            BlueprintName = "HWs"
+            ReferencedContainer = "container:HWS.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E7F083351A48C989004E510E"
-            BuildableName = "C++Final"
-            BlueprintName = "C++Final"
-            ReferencedContainer = "container:C++Final.xcodeproj">
+            BuildableName = "HWs"
+            BlueprintName = "HWs"
+            ReferencedContainer = "container:HWS.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -65,15 +65,15 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
-      buildConfiguration = "Release"
+      buildConfiguration = "Debug"
       debugDocumentVersioning = "YES">
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E7F083351A48C989004E510E"
-            BuildableName = "C++Final"
-            BlueprintName = "C++Final"
-            ReferencedContainer = "container:C++Final.xcodeproj">
+            BuildableName = "HWs"
+            BlueprintName = "HWs"
+            ReferencedContainer = "container:HWS.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
@@ -81,7 +81,7 @@
       buildConfiguration = "Debug">
    </AnalyzeAction>
    <ArchiveAction
-      buildConfiguration = "Release"
+      buildConfiguration = "Debug"
       revealArchiveInOrganizer = "YES">
    </ArchiveAction>
 </Scheme>

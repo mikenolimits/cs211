@@ -12,7 +12,7 @@
 
 using namespace std;
 
-int main() {
+int old() {
 	cout<<"There are no perfect squares who last two digits are both odd.\n";
 	cout<<"But for the sake of argument.....\n";
 	
