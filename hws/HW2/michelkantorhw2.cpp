@@ -10,8 +10,6 @@
 #include <iostream>
 using namespace std;
 
-
-
 bool equal(int a[], int b[], int n){
 	bool same = true;
 	
@@ -80,7 +78,7 @@ void evalulate(bool s){
 }
 
 
-int main(){
+void hw2(){
 	
 	int arr1[5] = {1, 2, 3, 4, 5};
 	int arr2[5] = {3, 4, 5, 1, 2};
@@ -90,5 +88,4 @@ int main(){
 	same  = arrayCheck(arr1, arr2,5);
 	
 	evalulate(same);
-	
 }

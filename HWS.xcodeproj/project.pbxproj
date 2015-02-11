@@ -8,7 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		E7AA60131A81CC58002C7A66 /* hw1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E7AA60121A81CC58002C7A66 /* hw1.cpp */; };
-		E7AA60161A81CC7D002C7A66 /* hw2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E7AA60151A81CC7D002C7A66 /* hw2.cpp */; };
+		E7AA60161A81CC7D002C7A66 /* michelkantorhw2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E7AA60151A81CC7D002C7A66 /* michelkantorhw2.cpp */; };
+		E7AA601A1A81EC66002C7A66 /* michaelkantorhw3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E7AA60191A81EC66002C7A66 /* michaelkantorhw3.cpp */; };
+		E7FAC3251A8ACED3003111AD /* michaelkantorhw3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E7FAC3231A8ACED3003111AD /* michaelkantorhw3.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,8 +27,10 @@
 
 /* Begin PBXFileReference section */
 		E7AA60121A81CC58002C7A66 /* hw1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hw1.cpp; sourceTree = "<group>"; };
-		E7AA60151A81CC7D002C7A66 /* hw2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = hw2.cpp; path = hws/HW2/hw2.cpp; sourceTree = SOURCE_ROOT; };
+		E7AA60151A81CC7D002C7A66 /* michelkantorhw2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = michelkantorhw2.cpp; path = hws/HW2/michelkantorhw2.cpp; sourceTree = SOURCE_ROOT; };
+		E7AA60191A81EC66002C7A66 /* michaelkantorhw3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = michaelkantorhw3.cpp; path = hws/HW2/michaelkantorhw3.cpp; sourceTree = SOURCE_ROOT; };
 		E7F083361A48C989004E510E /* HWs */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HWs; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7FAC3231A8ACED3003111AD /* michaelkantorhw3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = michaelkantorhw3.cpp; path = hws/HW3/michaelkantorhw3.cpp; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +47,8 @@
 		E7AA60141A81CC64002C7A66 /* HW2 */ = {
 			isa = PBXGroup;
 			children = (
-				E7AA60151A81CC7D002C7A66 /* hw2.cpp */,
+				E7AA60151A81CC7D002C7A66 /* michelkantorhw2.cpp */,
+				E7AA60191A81EC66002C7A66 /* michaelkantorhw3.cpp */,
 			);
 			name = HW2;
 			sourceTree = "<group>";
@@ -67,11 +72,20 @@
 		E7F083381A48C989004E510E /* HWS */ = {
 			isa = PBXGroup;
 			children = (
+				E7FAC3221A8ACE94003111AD /* HW3 */,
 				E7AA60141A81CC64002C7A66 /* HW2 */,
 				E7FCD66E1A7F2FAB0061BE36 /* HW1 */,
 			);
 			name = HWS;
 			path = "C++Final";
+			sourceTree = "<group>";
+		};
+		E7FAC3221A8ACE94003111AD /* HW3 */ = {
+			isa = PBXGroup;
+			children = (
+				E7FAC3231A8ACED3003111AD /* michaelkantorhw3.cpp */,
+			);
+			name = HW3;
 			sourceTree = "<group>";
 		};
 		E7FCD66E1A7F2FAB0061BE36 /* HW1 */ = {
@@ -139,7 +153,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7AA60161A81CC7D002C7A66 /* hw2.cpp in Sources */,
+				E7FAC3251A8ACED3003111AD /* michaelkantorhw3.cpp in Sources */,
+				E7AA60161A81CC7D002C7A66 /* michelkantorhw2.cpp in Sources */,
+				E7AA601A1A81EC66002C7A66 /* michaelkantorhw3.cpp in Sources */,
 				E7AA60131A81CC58002C7A66 /* hw1.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
