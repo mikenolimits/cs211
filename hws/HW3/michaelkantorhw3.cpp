@@ -22,7 +22,6 @@ using namespace std;
 	int queensColumn    =  0;
 	int queensRow       =  0;
 
-
 	/*
 	 At this point our current board works, so this method just tells us
 	 what our current solution is, basically not doing much else than abstraction.
@@ -36,7 +35,20 @@ using namespace std;
 			cout <<queensBoard[i];
 		}
 		cout <<"\n";
+  }
+
+  bool positionIsValid(){
+	//Consider the possibility that a current position might be negative.
+	position = queensBoard[queensColumn] - queensBoard[queensRow];
+	
+	if(position < 0){
+		position =  position * -1;
 	}
+	if(position == queensColumn - queensRow){
+		return false;
+	}
+	  return true;
+  }
 
     int main(){
 		
@@ -67,15 +79,8 @@ using namespace std;
 		queensRow = 0;
 		
 		while(queensRow < queensColumn){
-		
-			//Consider the possibility that a current position might be negative.
-			position = queensBoard[queensColumn] - queensBoard[queensRow];
 			
-			if(position < 0){
-				position =  position * -1;
-			}
-			
-			if(position == queensColumn - queensRow){
+			if(!positionIsValid()){
 				goto RowIncrementer;
 				//consider the posibility that the current queens position is the same as the current column
 			}else if(queensBoard[queensRow] == queensBoard[queensColumn]){
@@ -103,4 +108,4 @@ using namespace std;
 	solutionsOutput:
 		getSolution();
 		goto reboot;
-}
+ }
