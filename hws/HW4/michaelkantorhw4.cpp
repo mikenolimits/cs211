@@ -7,8 +7,6 @@ using namespace std;
  I kinda jumped the gun here and made this OOP and made the chess board dynamic.
  */
 
-
-
 class ChessBoard {
 public:
     int results;
