@@ -10,7 +10,6 @@ using namespace std;
 class ChessBoard {
 public:
     int results;
-    int position;
     
     int  *queensBoard;
     int  boardSize;
