@@ -110,7 +110,7 @@ public:
     }
 };
 
-int main()
+void hw6()
 {
     ChessBoard Chess = ChessBoard();
     Chess.init(8);
