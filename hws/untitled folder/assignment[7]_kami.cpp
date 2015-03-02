@@ -94,9 +94,11 @@ public:
     }
 };
 
-int main(){
+int hw7(){
     
     DumbChessBoard DumbChess = DumbChessBoard();
     DumbChess.init();
     DumbChess.run();
+    
+    return 1;
 }
