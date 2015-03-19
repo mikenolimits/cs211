@@ -14,7 +14,7 @@ class CrossProblem{
     bool needsToRetry;
     bool isBacktracked;
     
-bool ok()
+bool ok(int board[], int col)
 {
     
     
@@ -28,53 +28,44 @@ bool ok()
     {
         {-1},
         {0,-1},
-        {1, -1},
+        {1,1, -1},
         {0, 1, 2, -1},
-        {1, 2, 3, -1},
-        {0, 3, 4, -1},
-        {3, 4, 5, -1},
-        {2, 4, 6, -1}
+        {2,3, -1},
+        {2, 3, 4, -1},
+        {0, 2, 4, -1},
+        {1, 3, 5, -1}
     };
     
-    int y = 0;
-    int x = 0;
+    int helperRow = 0;
+    int boardRow  = 0;
     
-    while(x < col){
+    while(boardRow < col){
         //We need to make sure that the current column doesn't match up with the interation.
-        if (board[col] == board[x]) {
+        if (board[col] == board[boardRow]) {
             return false;
         }
-        x++;
+        boardRow++;
     }
-    
-    while(true){
-    
 
-        if(helpTable[col][y] == -1){
-            break;
-        }
+    while(helpTable[col][helperRow] != -1){
     
-        int position = board[col] - board[helpTable[col][y] ];
+        int position = board[col] - board[helpTable[col][helperRow] ];
         
         if(abs(position) == 1){
             return false;
         }
-        y++;
+        helperRow++;
     }
     return true;
 }
 
-void reboot()
+void backtrack()
 {
     col--;
     if(col == -1){
         exit(1);
     }
 }
-    
-    void outputRow(int size, string space = ""){
-        
-    }
 
 void getSolution()
 {
@@ -115,7 +106,7 @@ void getSolution()
     }
     
     
-    int run()
+    void run()
     {
         while(true)
         {
@@ -124,11 +115,9 @@ void getSolution()
                 ColumnIncrementor();
             }
             getSolution();
-            reboot();
+            backtrack();
             isBacktracked = true;
         }
-        
-        return 0;
     }
 
     
@@ -143,10 +132,10 @@ void getSolution()
             board[col]++;
             if(board[col] == 8)
             {
-                reboot();
+                backtrack();
                 continue;
             }
-            if(ok()){
+            if(ok(board,col)){
                 break;
             }
         }
@@ -157,8 +146,14 @@ void getSolution()
 };
 
 
-int main(){
-    CrossProblem x = CrossProblem();
-    x.init();
-    x.run();
+int seag(){
+    char b[5][7] ={"a","a","","",""};
+ 
+    cout<<sizeof(b + 1)<<endl;
+    
+    cout<<b<<endl;
+    cout<<b+1<<endl;
+    cout<<b+2<<endl;
+    
+ return 1;
 }
