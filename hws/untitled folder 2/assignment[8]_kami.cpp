@@ -24,7 +24,7 @@ bool ok(int board[], int col)
     //3. if the current position in the board is 1
     
     
-    static int helpTable[8][4] =
+    static int helpTable[8][5] =
     {
         {-1},
         {0,-1},
@@ -36,25 +36,20 @@ bool ok(int board[], int col)
         {1, 3, 5, -1}
     };
     
-    int helperRow = 0;
-    int boardRow  = 0;
-    
-    while(boardRow < col){
-        //We need to make sure that the current column doesn't match up with the interation.
-        if (board[col] == board[boardRow]) {
-            return false;
-        }
-        boardRow++;
-    }
 
-    while(helpTable[col][helperRow] != -1){
+    for (int boardRow = 0; boardRow < col; boardRow++) {
+        //We need to make sure that the current column doesn't match up with the interation.
+           if (board[col] == board[boardRow]) {
+              return false;
+           }
+    }
+    for (int helperRow = 0; helpTable[col][helperRow] != 1; helperRow++) {
     
         int position = board[col] - board[helpTable[col][helperRow] ];
         
-        if(abs(position) == 1){
+        if(abs(position) == (col - helperRow)){
             return false;
         }
-        helperRow++;
     }
     return true;
 }

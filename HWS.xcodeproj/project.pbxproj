@@ -8,14 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		E70910621AB7CD7C009D0D77 /* assignment11_kami.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E70910611AB7CD7C009D0D77 /* assignment11_kami.cpp */; };
+		E71C2FC61AE5BF9300899E4F /* assignment[17]_kami.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E71C2FC51AE5BF9300899E4F /* assignment[17]_kami.cpp */; };
 		E72109861AAF347000F9E6C8 /* assignment[10]_kami.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E72109851AAF347000F9E6C8 /* assignment[10]_kami.cpp */; };
 		E72639E21A9CB2B5007C939B /* assignment[7]_kami.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E72639E11A9CB2B5007C939B /* assignment[7]_kami.cpp */; };
+		E744E9391AE0213E0093D217 /* vector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E744E9381AE0213E0093D217 /* vector.cpp */; };
 		E74C6D551AA3EBBD0083466D /* assignment[8]_kami.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E74C6D541AA3EBBD0083466D /* assignment[8]_kami.cpp */; };
+		E75068721ADAE34E00B651A2 /* assignment[15]_kami.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E75068711ADAE34E00B651A2 /* assignment[15]_kami.cpp */; };
+		E76B34B61ABF926400F007B5 /* assingment[14]_kami.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E76B34B51ABF926400F007B5 /* assingment[14]_kami.cpp */; };
+		E76B34B91ABF9AE600F007B5 /* assignment[13]_kami.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E76B34B81ABF9AE600F007B5 /* assignment[13]_kami.cpp */; };
 		E79A19981AAE0970001D1147 /* assignment[9]_kami.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E79A19971AAE0970001D1147 /* assignment[9]_kami.cpp */; };
+		E79C82A11AF0727400783CEB /* assignment[18]_kami.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E79C82A01AF0727400783CEB /* assignment[18]_kami.cpp */; };
+		E79C82A41AF075CB00783CEB /* assignment[19]_kami.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E79C82A31AF075CB00783CEB /* assignment[19]_kami.cpp */; };
 		E7AA60131A81CC58002C7A66 /* hw1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E7AA60121A81CC58002C7A66 /* hw1.cpp */; };
 		E7AA60161A81CC7D002C7A66 /* michelkantorhw2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E7AA60151A81CC7D002C7A66 /* michelkantorhw2.cpp */; };
 		E7AA601A1A81EC66002C7A66 /* michaelkantorhw3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E7AA60191A81EC66002C7A66 /* michaelkantorhw3.cpp */; };
 		E7CAEB5A1A966C83001C4184 /* assignment[6]_kami.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E7CAEB591A966C83001C4184 /* assignment[6]_kami.cpp */; };
+		E7D74C101AC0A7A9000BA543 /* Midterm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E7D74C0F1AC0A7A9000BA543 /* Midterm.cpp */; };
 		E7FAC3251A8ACED3003111AD /* michaelkantorhw3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E7FAC3231A8ACED3003111AD /* michaelkantorhw3.cpp */; };
 /* End PBXBuildFile section */
 
@@ -33,14 +41,22 @@
 
 /* Begin PBXFileReference section */
 		E70910611AB7CD7C009D0D77 /* assignment11_kami.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = assignment11_kami.cpp; path = hws/HW11/assignment11_kami.cpp; sourceTree = SOURCE_ROOT; };
+		E71C2FC51AE5BF9300899E4F /* assignment[17]_kami.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "assignment[17]_kami.cpp"; path = "hws/HW17/assignment[17]_kami.cpp"; sourceTree = SOURCE_ROOT; };
 		E72109851AAF347000F9E6C8 /* assignment[10]_kami.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "assignment[10]_kami.cpp"; path = "hws/HW10/assignment[10]_kami.cpp"; sourceTree = SOURCE_ROOT; };
 		E72639E11A9CB2B5007C939B /* assignment[7]_kami.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "assignment[7]_kami.cpp"; path = "hws/untitled folder/assignment[7]_kami.cpp"; sourceTree = SOURCE_ROOT; };
+		E744E9381AE0213E0093D217 /* vector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = vector.cpp; path = hws/vector.cpp; sourceTree = SOURCE_ROOT; };
 		E74C6D541AA3EBBD0083466D /* assignment[8]_kami.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "assignment[8]_kami.cpp"; path = "hws/untitled folder 2/assignment[8]_kami.cpp"; sourceTree = SOURCE_ROOT; };
+		E75068711ADAE34E00B651A2 /* assignment[15]_kami.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "assignment[15]_kami.cpp"; path = "hws/GW15/assignment[15]_kami.cpp"; sourceTree = SOURCE_ROOT; };
+		E76B34B51ABF926400F007B5 /* assingment[14]_kami.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "assingment[14]_kami.cpp"; path = "hws/hw12/assingment[14]_kami.cpp"; sourceTree = SOURCE_ROOT; };
+		E76B34B81ABF9AE600F007B5 /* assignment[13]_kami.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "assignment[13]_kami.cpp"; path = "hws/hw13/assignment[13]_kami.cpp"; sourceTree = SOURCE_ROOT; };
 		E79A19971AAE0970001D1147 /* assignment[9]_kami.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "assignment[9]_kami.cpp"; path = "hws/hw7/assignment[9]_kami.cpp"; sourceTree = SOURCE_ROOT; };
+		E79C82A01AF0727400783CEB /* assignment[18]_kami.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "assignment[18]_kami.cpp"; path = "hws/HW18/assignment[18]_kami.cpp"; sourceTree = SOURCE_ROOT; };
+		E79C82A31AF075CB00783CEB /* assignment[19]_kami.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "assignment[19]_kami.cpp"; path = "hws/HW19/assignment[19]_kami.cpp"; sourceTree = SOURCE_ROOT; };
 		E7AA60121A81CC58002C7A66 /* hw1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hw1.cpp; sourceTree = "<group>"; };
 		E7AA60151A81CC7D002C7A66 /* michelkantorhw2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = michelkantorhw2.cpp; path = hws/HW2/michelkantorhw2.cpp; sourceTree = SOURCE_ROOT; };
 		E7AA60191A81EC66002C7A66 /* michaelkantorhw3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = michaelkantorhw3.cpp; path = hws/HW2/michaelkantorhw3.cpp; sourceTree = SOURCE_ROOT; };
 		E7CAEB591A966C83001C4184 /* assignment[6]_kami.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "assignment[6]_kami.cpp"; path = "hws/HW4/assignment[6]_kami.cpp"; sourceTree = SOURCE_ROOT; };
+		E7D74C0F1AC0A7A9000BA543 /* Midterm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Midterm.cpp; path = hws/Final/Midterm.cpp; sourceTree = SOURCE_ROOT; };
 		E7F083361A48C989004E510E /* HWs */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HWs; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7FAC3231A8ACED3003111AD /* michaelkantorhw3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = michaelkantorhw3.cpp; path = hws/HW3/michaelkantorhw3.cpp; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -62,6 +78,21 @@
 				E70910611AB7CD7C009D0D77 /* assignment11_kami.cpp */,
 			);
 			name = HW9;
+			sourceTree = "<group>";
+		};
+		E71C2FC31AE5BF6600899E4F /* HW16 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = HW16;
+			sourceTree = "<group>";
+		};
+		E71C2FC41AE5BF7100899E4F /* HW17 */ = {
+			isa = PBXGroup;
+			children = (
+				E71C2FC51AE5BF9300899E4F /* assignment[17]_kami.cpp */,
+			);
+			name = HW17;
 			sourceTree = "<group>";
 		};
 		E72109841AAF345400F9E6C8 /* HW8 */ = {
@@ -88,12 +119,52 @@
 			name = HW6;
 			sourceTree = "<group>";
 		};
+		E75068701ADAE32E00B651A2 /* HW14 */ = {
+			isa = PBXGroup;
+			children = (
+				E75068711ADAE34E00B651A2 /* assignment[15]_kami.cpp */,
+			);
+			name = HW14;
+			sourceTree = "<group>";
+		};
+		E76B34B41ABF924500F007B5 /* HW14 */ = {
+			isa = PBXGroup;
+			children = (
+				E76B34B51ABF926400F007B5 /* assingment[14]_kami.cpp */,
+			);
+			name = HW14;
+			sourceTree = "<group>";
+		};
+		E76B34B71ABF9AC600F007B5 /* HW13 */ = {
+			isa = PBXGroup;
+			children = (
+				E76B34B81ABF9AE600F007B5 /* assignment[13]_kami.cpp */,
+			);
+			name = HW13;
+			sourceTree = "<group>";
+		};
 		E79A19961AAE0951001D1147 /* HW7 */ = {
 			isa = PBXGroup;
 			children = (
 				E79A19971AAE0970001D1147 /* assignment[9]_kami.cpp */,
 			);
 			name = HW7;
+			sourceTree = "<group>";
+		};
+		E79C829F1AF0725700783CEB /* HW18 */ = {
+			isa = PBXGroup;
+			children = (
+				E79C82A01AF0727400783CEB /* assignment[18]_kami.cpp */,
+			);
+			name = HW18;
+			sourceTree = "<group>";
+		};
+		E79C82A21AF075A800783CEB /* HW19 */ = {
+			isa = PBXGroup;
+			children = (
+				E79C82A31AF075CB00783CEB /* assignment[19]_kami.cpp */,
+			);
+			name = HW19;
 			sourceTree = "<group>";
 		};
 		E7AA60141A81CC64002C7A66 /* HW2 */ = {
@@ -111,6 +182,14 @@
 				E7CAEB591A966C83001C4184 /* assignment[6]_kami.cpp */,
 			);
 			name = HW4;
+			sourceTree = "<group>";
+		};
+		E7D74C0E1AC0A791000BA543 /* FinalQ */ = {
+			isa = PBXGroup;
+			children = (
+				E7D74C0F1AC0A7A9000BA543 /* Midterm.cpp */,
+			);
+			name = FinalQ;
 			sourceTree = "<group>";
 		};
 		E7F0832D1A48C989004E510E = {
@@ -132,6 +211,14 @@
 		E7F083381A48C989004E510E /* HWS */ = {
 			isa = PBXGroup;
 			children = (
+				E79C82A21AF075A800783CEB /* HW19 */,
+				E79C829F1AF0725700783CEB /* HW18 */,
+				E71C2FC41AE5BF7100899E4F /* HW17 */,
+				E71C2FC31AE5BF6600899E4F /* HW16 */,
+				E75068701ADAE32E00B651A2 /* HW14 */,
+				E7D74C0E1AC0A791000BA543 /* FinalQ */,
+				E76B34B71ABF9AC600F007B5 /* HW13 */,
+				E76B34B41ABF924500F007B5 /* HW14 */,
 				E70910601AB7CD65009D0D77 /* HW9 */,
 				E72109841AAF345400F9E6C8 /* HW8 */,
 				E79A19961AAE0951001D1147 /* HW7 */,
@@ -141,6 +228,7 @@
 				E7FAC3221A8ACE94003111AD /* HW3 */,
 				E7AA60141A81CC64002C7A66 /* HW2 */,
 				E7FCD66E1A7F2FAB0061BE36 /* HW1 */,
+				E744E9381AE0213E0093D217 /* vector.cpp */,
 			);
 			name = HWS;
 			path = "C++Final";
@@ -189,7 +277,7 @@
 		E7F0832E1A48C989004E510E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = Twitch;
 				TargetAttributes = {
 					E7F083351A48C989004E510E = {
@@ -219,16 +307,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E75068721ADAE34E00B651A2 /* assignment[15]_kami.cpp in Sources */,
 				E72109861AAF347000F9E6C8 /* assignment[10]_kami.cpp in Sources */,
+				E71C2FC61AE5BF9300899E4F /* assignment[17]_kami.cpp in Sources */,
 				E74C6D551AA3EBBD0083466D /* assignment[8]_kami.cpp in Sources */,
 				E70910621AB7CD7C009D0D77 /* assignment11_kami.cpp in Sources */,
 				E7CAEB5A1A966C83001C4184 /* assignment[6]_kami.cpp in Sources */,
 				E79A19981AAE0970001D1147 /* assignment[9]_kami.cpp in Sources */,
+				E76B34B61ABF926400F007B5 /* assingment[14]_kami.cpp in Sources */,
+				E76B34B91ABF9AE600F007B5 /* assignment[13]_kami.cpp in Sources */,
+				E7D74C101AC0A7A9000BA543 /* Midterm.cpp in Sources */,
 				E7FAC3251A8ACED3003111AD /* michaelkantorhw3.cpp in Sources */,
 				E7AA60161A81CC7D002C7A66 /* michelkantorhw2.cpp in Sources */,
 				E7AA601A1A81EC66002C7A66 /* michaelkantorhw3.cpp in Sources */,
+				E79C82A11AF0727400783CEB /* assignment[18]_kami.cpp in Sources */,
 				E72639E21A9CB2B5007C939B /* assignment[7]_kami.cpp in Sources */,
 				E7AA60131A81CC58002C7A66 /* hw1.cpp in Sources */,
+				E79C82A41AF075CB00783CEB /* assignment[19]_kami.cpp in Sources */,
+				E744E9391AE0213E0093D217 /* vector.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,9 +335,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "c++98";
-				CLANG_CXX_LIBRARY = "libstdc++";
-				CLANG_ENABLE_MODULES = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_LINK_OBJC_RUNTIME = NO;
 				CLANG_WARN_BOOL_CONVERSION = YES;
@@ -256,8 +353,8 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_DYNAMIC_NO_PIC = YES;
 				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -282,9 +379,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "c++98";
-				CLANG_CXX_LIBRARY = "libstdc++";
-				CLANG_ENABLE_MODULES = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_LINK_OBJC_RUNTIME = NO;
 				CLANG_WARN_BOOL_CONVERSION = YES;
@@ -301,7 +399,8 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_DYNAMIC_NO_PIC = YES;
 				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -318,6 +417,7 @@
 		E7F0833E1A48C989004E510E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -325,6 +425,7 @@
 		E7F0833F1A48C989004E510E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

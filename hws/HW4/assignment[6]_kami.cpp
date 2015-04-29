@@ -110,9 +110,13 @@ public:
     }
 };
 
-void hw6()
+int lolhahaha()
 {
     ChessBoard Chess = ChessBoard();
-    Chess.init(8);
+    int number;
+    cout<<"Number:"<<endl;
+    cin>>number;
+    Chess.init(number);
     Chess.run();
+    return 1;
 }
