@@ -12,13 +12,13 @@ using namespace std;
 int k, n; //number of bishops, size of the board
 
 //q is an array of squares, where b is a bishop and q[b] is the square the bishop occupies
-bool ok(int q[], int b, int size){
+bool ok(int q[], int b, int n){
     //identify the row and column the bishop is in
-    int row = q[b]/size, column = q[b]%size, current_row, current_column;
+    int row = q[b]/n, column = q[b]%n, current_row, current_column;
     
     for(int i=0; i<b; i++){ //for every bishop
-        current_row = q[i]/size;
-        current_column = q[i]%size;
+        current_row = q[i]/n;
+        current_column = q[i]%n;
         
         //diagonal test
         if(abs(row-current_row)==abs(column-current_column)) return false;
@@ -27,15 +27,15 @@ bool ok(int q[], int b, int size){
     return true;
 }
 
-void backtrack(int &bishop, int count){
-    bishop--;
-    if(bishop==-1){
+void backtrack(int &b, int count){
+    b--;
+    if(b==-1){
         cout << k << " bishops can be placed on an " << n << " by " << n << " chessboard in " << count << " different ways.";
         exit(1);
     }
 }
 
-int vecors(){
+int vectors(){
     while(true){
         
         //User input
