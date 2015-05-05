@@ -16,6 +16,7 @@
 		E75068721ADAE34E00B651A2 /* assignment[15]_kami.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E75068711ADAE34E00B651A2 /* assignment[15]_kami.cpp */; };
 		E76B34B61ABF926400F007B5 /* assingment[14]_kami.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E76B34B51ABF926400F007B5 /* assingment[14]_kami.cpp */; };
 		E76B34B91ABF9AE600F007B5 /* assignment[13]_kami.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E76B34B81ABF9AE600F007B5 /* assignment[13]_kami.cpp */; };
+		E79749D11AF8663A00D13090 /* assignment[20]_kami.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E79749D01AF8663A00D13090 /* assignment[20]_kami.cpp */; };
 		E79A19981AAE0970001D1147 /* assignment[9]_kami.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E79A19971AAE0970001D1147 /* assignment[9]_kami.cpp */; };
 		E79C82A11AF0727400783CEB /* assignment[18]_kami.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E79C82A01AF0727400783CEB /* assignment[18]_kami.cpp */; };
 		E79C82A41AF075CB00783CEB /* assignment[19]_kami.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E79C82A31AF075CB00783CEB /* assignment[19]_kami.cpp */; };
@@ -49,6 +50,7 @@
 		E75068711ADAE34E00B651A2 /* assignment[15]_kami.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "assignment[15]_kami.cpp"; path = "hws/GW15/assignment[15]_kami.cpp"; sourceTree = SOURCE_ROOT; };
 		E76B34B51ABF926400F007B5 /* assingment[14]_kami.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "assingment[14]_kami.cpp"; path = "hws/hw12/assingment[14]_kami.cpp"; sourceTree = SOURCE_ROOT; };
 		E76B34B81ABF9AE600F007B5 /* assignment[13]_kami.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "assignment[13]_kami.cpp"; path = "hws/hw13/assignment[13]_kami.cpp"; sourceTree = SOURCE_ROOT; };
+		E79749D01AF8663A00D13090 /* assignment[20]_kami.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "assignment[20]_kami.cpp"; path = "hws/HW20/assignment[20]_kami.cpp"; sourceTree = SOURCE_ROOT; };
 		E79A19971AAE0970001D1147 /* assignment[9]_kami.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "assignment[9]_kami.cpp"; path = "hws/hw7/assignment[9]_kami.cpp"; sourceTree = SOURCE_ROOT; };
 		E79C82A01AF0727400783CEB /* assignment[18]_kami.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "assignment[18]_kami.cpp"; path = "hws/HW18/assignment[18]_kami.cpp"; sourceTree = SOURCE_ROOT; };
 		E79C82A31AF075CB00783CEB /* assignment[19]_kami.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "assignment[19]_kami.cpp"; path = "hws/HW19/assignment[19]_kami.cpp"; sourceTree = SOURCE_ROOT; };
@@ -143,6 +145,14 @@
 			name = HW13;
 			sourceTree = "<group>";
 		};
+		E79749CF1AF8662000D13090 /* HW20 */ = {
+			isa = PBXGroup;
+			children = (
+				E79749D01AF8663A00D13090 /* assignment[20]_kami.cpp */,
+			);
+			name = HW20;
+			sourceTree = "<group>";
+		};
 		E79A19961AAE0951001D1147 /* HW7 */ = {
 			isa = PBXGroup;
 			children = (
@@ -211,6 +221,7 @@
 		E7F083381A48C989004E510E /* HWS */ = {
 			isa = PBXGroup;
 			children = (
+				E79749CF1AF8662000D13090 /* HW20 */,
 				E79C82A21AF075A800783CEB /* HW19 */,
 				E79C829F1AF0725700783CEB /* HW18 */,
 				E71C2FC41AE5BF7100899E4F /* HW17 */,
@@ -308,6 +319,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E75068721ADAE34E00B651A2 /* assignment[15]_kami.cpp in Sources */,
+				E79749D11AF8663A00D13090 /* assignment[20]_kami.cpp in Sources */,
 				E72109861AAF347000F9E6C8 /* assignment[10]_kami.cpp in Sources */,
 				E71C2FC61AE5BF9300899E4F /* assignment[17]_kami.cpp in Sources */,
 				E74C6D551AA3EBBD0083466D /* assignment[8]_kami.cpp in Sources */,

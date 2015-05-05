@@ -65,7 +65,6 @@ void run(){
     while(needsToRetry){
         while(bishop < knights){
             
-            
             while(board[bishop] < size * size){
                 //Because if one bishop gets in the way of the other due to their diagonal
                 //The best thing we can do is take that bishop and move him right for the next loop.
@@ -95,7 +94,7 @@ void run(){
     delete board;
 }
 };
-int main()
+int hw19()
 {
     
     KBishops x = KBishops();

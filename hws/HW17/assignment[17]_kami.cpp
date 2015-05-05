@@ -27,29 +27,30 @@ const int weight[rows][cols]={
     {3,7,2,8,6,4}
 };
 
+//Step 1 : Make a base case. Ours is when the column is 0. At this point we "remember" previous values by sticking it into the const. The base case will only be reached by possible recursive calls later on.
+//Step 2 : Check for previous answers by looking inside the Const Array
+//Step 3 : recursively Call COST on each direction with the following rules ->
+//  left = c -1
+//  up   = (r-1 + rowcount) % rowcount
+//  down = (r+1)%rows)
+//The second arguement is always c-1
+//Step 4 : calculate the min of each direction. The lowest will then be
+//saved to the cost int for later checks.
 
 int cost(int r, int c){
-   
-    //base case
-    //0 means its reached the end of a row b/c of how arrays work.
-    //The initial call will never return this value,
-    // this is used solely for the recursion process.
+    
     if(c == 0){
         memo[r][c] = weight[r][c];
-        //cout<<memo[r][c]<<endl;
         return memo[r][c];
     }
-    //If memo contains a value we'll retrieve it instead of more recursive calls
     if(memo[r][c] != 0){
         return memo[r][c];
     }
     
-    // recursive call to the length of all values left, up & down.
     int left = cost ( r, c - 1);
     int up   = cost((r-1+rows)%rows, c-1);
     int down = cost((r+1)%rows, c-1);
     
-    // find the value of the shortest path through cell (i,j)
     int min = left;
     directionsTaken[r][c]  = 'l';
    
@@ -62,23 +63,18 @@ int cost(int r, int c){
         directionsTaken[r][c] = 'd';
     }
     
-    //min = min + weight[r][c];
-    
-    //cout<<"The current min is : "<<(min + weight[r][c])<<endl;
-    
     memo [r][c] = (min + weight[r][c]);
     
     return memo [r][c];
 }
 
-int hw17(){
+int offline(){
     int rowIndex = 0;
     int length[rows];
     
     // get the shortest path out of each cell on the right
     for( int i=0; i<rows; i++){
         length[i] = cost(i,cols-1);
-
     }
     // now find the smallest of them
     int min = 999999999;
@@ -95,43 +91,44 @@ int hw17(){
     //How does one find the path :(
     cout<<"Printing the path:"<<endl;
     
-    //int start = weight[0][0];
+        //int start = weight[0][0];
     
-      //start
-        char direction   = directionsTaken[0][rowIndex];
+    char direction;
+    int  math;
         //int colindex   = cols;
-        int math         = 0;
     
-        for (int y = cols; y > 0; y--) {
-            switch(direction){
+    
+    for (int x = 0; x < rows; x++) {
+        for (int p = 0; p < cols; p++) {
+            cout<<directionsTaken[x][p]<<" ";
+        }
+        cout<<endl;
+    }
+    
+    for (int y = 0; y < cols; y++) {
+        direction =  directionsTaken[rowIndex][y];
+        switch(direction){
                     case 'l':
-                    math = y-1;
+                    math = rowIndex-1;
                     //cout<<math<<endl;
                     cout<<math<<endl;
                     break;
                     case 'u':
-                    math = (y - 1 + rows ) % rows;
+                    math = (rowIndex - 1 + rows ) % rows;
                     //cout<<math<<endl;
                     cout<<math<<endl;
                     break;
                     case 'd':
-                    math = (y+1)%rows;
+                    math = (rowIndex+1)%rows;
                     //cout<<math<<endl;
                     cout<<math<<endl;
                     break;
-            }
-            //cout<<"The math is"<<math<<endl;
-            direction = directionsTaken[y][math];
         }
+    }
     
-    cout<<endl;
-
-    
-    //…some code goes here
+    cout<<endl; 
     
     cout<<"the shortest path is of length "<<min<<endl;
-    //system("PAUSE");
     
     return 1;
-    
 }
