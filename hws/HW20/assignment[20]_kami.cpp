@@ -30,32 +30,27 @@ public:
     void setN(int i){ n=i;}
     void setD(int i){ d=i;}
     
-    //arithmetic operators
-    
-    Rat mixedNum(){
-        if ( n> d){
-            
-        }
-        return *this;
-    }
-    
     Rat simplify(){
+        
         int numerator   = n;
         int denominator = d;
         
-        int biggest    = numerator;
+        int biggest     = numerator;
+        
         int GreatestCommonDenominator = 1;
     
         if(numerator < denominator){
             biggest = denominator;
         }
-        //Find the GCD!
+        
+        //Find the GCD. It can't be <= 1
         for (int i = biggest; i >= 2; i--) {
             if ((denominator % i == 0) && (numerator % i == 0)) {
                 GreatestCommonDenominator = i;
                 break;
             }
         }
+        
         //Using the GCD, divide top & bottom
         if(GreatestCommonDenominator != 0){
             numerator /= GreatestCommonDenominator;
@@ -65,7 +60,7 @@ public:
         d = denominator;
         n = numerator;
         //this = the current instance via pointer reference.
-        return this->mixedNum();
+        return *this;
     }
     
     Rat operator+(Rat r){
@@ -89,7 +84,7 @@ public:
     Rat operator *(Rat r){
         Rat t;
         //(numerator * denominator of R) - (Denominator * Numerator of R)
-        t.n = n*r.n;
+        t.n = n * r.n;
         t.d = d * r.d;
         
         return t.simplify();
@@ -118,7 +113,7 @@ ostream& operator<<(ostream& os, Rat r){
         os<<r.n<<" / "<<r.d<<endl;
     }else{
         //Get the mixed number on the left. easy.
-        int left = r.n / r.d;
+        int left  = r.n / r.d;
         
         int right = r.n % r.d;
         
@@ -132,22 +127,16 @@ istream& operator>>(istream& is, Rat& r){
     is>>r.n>>r.d;
     return is;
 }
-int main(){
+int rats(){
     Rat x(4,4), y(2,4), z;
-    z=x+y;
-    //cout<<z;
-    
-    //x.setN(3);
-    //y.setD(2);
-    //z=x+y;
-    //cout<<z;
-    //cin>>x;
-    //cout<<x;
-    //z= x+5;
-    //cout<<z;
-   
-    
+    //outputs mixed number 1 1/2
     z = x+y;
+    cout<<z;
+    
+    x.setD(200);
+    x.setN(100);
+    //outputs 1/4
+    z =  x * y;
     cout<<z;
     return 0;
 }
